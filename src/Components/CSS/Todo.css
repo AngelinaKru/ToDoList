@@ -1,7 +1,7 @@
 .todo{
     width: 600px;
     min-height: 732px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: auto;
     margin-top: 174px;
     display: flex;
@@ -9,4 +9,47 @@
     padding: 0px 44px;
     padding-bottom: 30px;
     margin-bottom: 100px;
+    background-color: beige;
+}
+
+.todo-header{
+    margin-top: 84px;
+    color: brown;
+    font-size: 36px;
+    font-weight: 600px;
+    line-height: 34px;
+}
+
+.todo-add{
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.todo-input{
+    border-radius: 10px;
+    background: beige;
+    border: 1px solid brown;
+    outline: none;
+    width: 550px;
+    height: 50px;
+    padding-left: 35px;
+    font-size: 18px;
+}
+
+.todo-add-btn{
+    border-radius: 10px;
+    background: brown;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    color: beige;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
 }

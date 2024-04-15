@@ -1,0 +1,33 @@
+.todoitems{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.todoitems-container{
+    display: flex;
+}
+
+.todoitems-text{
+    padding-left: 16px;
+    color: brown;
+    font-size: 22px;
+    margin: 10px;
+}
+
+.todoitems-cross-icon{
+    cursor: pointer;
+    padding-right: 25px;
+    width: 50px;
+    height: auto;
+}
+
+.todoitems-icons{
+    width: 50px;
+    height: auto;
+}
+
+.line-through{
+    text-decoration: line-through solid black;
+}
